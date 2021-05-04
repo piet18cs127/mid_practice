@@ -124,7 +124,7 @@ def main():
       result=predict_note_authentication(age,cp,trestbps,chol,fbs,Gender,Geography,restecg,thalach,exang,oldpeak,slope,ca,thal)
       st.success('Model has predicted {}'.format(result))
     if st.button("About"):
-      st.subheader("Developed by Priyanshu Jain")
+      st.subheader("Developed by Sagar Gyanchandani")
       st.subheader("C-Section,PIET")
 
 if __name__=='__main__':
